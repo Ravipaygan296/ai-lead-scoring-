@@ -1,0 +1,14 @@
+model:
+  type: "RandomForest"
+  n_estimators: 200
+  random_state: 42
+
+data:
+  file_path: "leads_data.csv"
+  test_size: 0.2
+  random_state: 42
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
